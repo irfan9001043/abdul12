@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            display: flex;
+            border: 1px solid black;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .div1,.div2{
+            border-left: 1px solid black;
+            width: 50%;
+        }
+        .div22{
+            display: flex;
+        }
+        .div12{
+            border-bottom: 1px solid black;
+            height: 10vh;
+        }
+        .div23{
+            box-sizing: border-box;
+            width: 50%;
+            border: 1px solid black;
+            height: 45vh;
+        }
+        .div24{
+            height: 44vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <div class="div12"></div>
+        </div>
+        <div class="div2">
+            <div class="div12">sdaf</div>
+            <div class="div22">
+                <div class="div23">sdaf</div>
+                <div class="div23">sdaf</div>
+            </div>
+            <div class="div22">
+                <div class="div23">sdaf</div>
+                <div class="div23">sdaf</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

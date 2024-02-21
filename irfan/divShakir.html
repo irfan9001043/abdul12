@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body,.div{
+            margin: 0px;
+        }
+        .div {
+            border-style: solid;
+            border-color: black;
+            border-width: 1px 0 0 1px;
+            display: inline-block;
+            }
+
+            .column {
+            float: left;
+            overflow: hidden;
+            }
+
+            .cell {
+            border: 1px solid black;
+            width: 544px;
+            height: 20px;
+            margin: -1px 0 0 -1px;
+            }
+
+            .clearfix {
+            clear: both;
+            }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div class="column">
+          <div class="cell" style="text-align:center ;">column</div>
+          <div class="cell" style="text-align:center ;">column</div>
+        </div>
+        <div class="column">
+          <div class="cell" style="text-align:center ;">div</div>
+          <div class="cell"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+</body>
+</html>
